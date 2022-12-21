@@ -1,0 +1,28 @@
+* {
+    font-size: 25px;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(174, 111, 233, .5);
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+.container {
+    display: grid; 
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px;
+}
+
+.chart {
+    height: 500px;
+    width: 600px;
+}
